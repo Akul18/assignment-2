@@ -228,6 +228,9 @@ def create_map_from_excel(excel_file, output_file='map.html',
 
     print("Adding lines...")
     add_lines(m, df_lines)
+    
+    m.add_child(folium.ClickForMarker())
+    m.add_child(folium.LatLngPopup())
 
     # Add layer control
     folium.LayerControl().add_to(m)

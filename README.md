@@ -13,6 +13,7 @@ A Python script that parses an Excel spreadsheet with multiple tabs containing d
 - **Multiple Map Layers**: Switch between different map styles
 
 - **ADDED FEATURE**: User can press on the map to place down a marker and see what the latitude and longitude of that spot on the map is.
+- **Github Page Link**: https://akul18.github.io/assignment-2/my_map.html
 
 ## Installation
 
